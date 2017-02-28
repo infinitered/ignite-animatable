@@ -1,7 +1,7 @@
 {
   "name": "ignite-animatable",
   "description": "An Ignite plugin which installs react-native-animatable.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "files": [
     "index.js",
@@ -18,7 +18,7 @@
     "test": "ava",
     "watch": "ava --watch",
     "coverage": "nyc ava",
-    "publish": "np"
+    "pub": "np"
   },
   "standard": {
     "parser": "babel-eslint"
