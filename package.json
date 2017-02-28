@@ -4,6 +4,7 @@
   "version": "0.2.7",
   "license": "MIT",
   "files": [
+    "README.md",
     "index.js",
     "templates"
   ],
