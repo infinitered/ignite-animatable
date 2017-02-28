@@ -18,7 +18,7 @@
     "test": "ava",
     "watch": "ava --watch",
     "coverage": "nyc ava",
-    "pub": "np"
+    "shipit": "np"
   },
   "standard": {
     "parser": "babel-eslint"
