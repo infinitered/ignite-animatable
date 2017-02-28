@@ -4,3 +4,5 @@ node_modules
 yarn.lock
 npm-debug.log
 npm-debug.log*
+.nyc_output
+coverage

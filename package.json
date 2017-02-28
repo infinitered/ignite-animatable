@@ -14,16 +14,19 @@
     "url": "https://github.com/infinitered/ignite"
   },
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "test": "ava",
+    "watch": "ava --watch",
+    "coverage": "nyc ava"
   },
   "standard": {
-    "parser": "babel-eslint",
-    "globals": [
-      "__DEV__"
-    ]
+    "parser": "babel-eslint"
   },
   "devDependencies": {
+    "ava": "^0.18.2",
     "babel-eslint": "^7.1.1",
+    "nyc": "^10.1.2",
+    "sinon": "^1.17.7",
     "standard": "^8.6.0"
   }
 }
