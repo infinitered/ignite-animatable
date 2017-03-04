@@ -5,7 +5,7 @@
   "license": "MIT",
   "files": [
     "README.md",
-    "index.js",
+    "plugin.js",
     "templates"
   ],
   "repository": "infinitered/ignite-animatable",
