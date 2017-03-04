@@ -1,19 +1,19 @@
 const test = require('ava')
 const sinon = require('sinon')
-const plugin = require('../index')
+const plugin = require('../plugin')
 
 test('removes itself', async t => {
   const removeModule = sinon.spy()
-  const removeComponentExample = sinon.spy()
+  const removePluginComponentExample = sinon.spy()
 
   const context = {
     ignite: {
       removeModule: removeModule,
-      removeComponentExample: removeComponentExample
+      removePluginComponentExample: removePluginComponentExample
     }
   }
 
   await plugin.remove(context)
   t.true(removeModule.calledWith('react-native-animatable'))
-  t.true(removeComponentExample.calledWith('animatableExample.js'))
+  t.true(removePluginComponentExample.calledWith('animatableExample.js'))
 })
