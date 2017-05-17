@@ -1,5 +1,7 @@
 # ignite-animatable
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/infinitered/ignite-animatable.svg)](https://greenkeeper.io/)
+
 An [ignite plugin](https://github.com/infinitered/ignite) for [react-native-animatable](https://github.com/oblador/react-native-animatable).
 
 ## Premium Support
