@@ -1,5 +1,5 @@
 const NPM_MODULE_NAME = 'react-native-animatable'
-const EXAMPLE_FILE = 'animatableExample.js'
+const EXAMPLE_FILE = 'animatableExample.js.ejs'
 
 /**
  * Add ourself to the project.
