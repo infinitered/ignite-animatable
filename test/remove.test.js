@@ -15,5 +15,5 @@ test('removes itself', async t => {
 
   await plugin.remove(context)
   t.true(removeModule.calledWith('react-native-animatable'))
-  t.true(removePluginComponentExample.calledWith('animatableExample.js'))
+  t.true(removePluginComponentExample.calledWith('animatableExample.js.ejs'))
 })

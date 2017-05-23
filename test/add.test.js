@@ -16,7 +16,7 @@ test('adds itself', async t => {
   await plugin.add(context)
   t.true(addModule.calledWith('react-native-animatable'))
   t.true(
-    addPluginComponentExample.calledWith('animatableExample.js', {
+    addPluginComponentExample.calledWith('animatableExample.js.ejs', {
       title: 'Animatable'
     })
   )
