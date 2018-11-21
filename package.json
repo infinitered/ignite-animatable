@@ -19,6 +19,7 @@
     "test": "ava",
     "watch": "ava --watch",
     "coverage": "nyc ava",
+    "ci:test": "yarn test",
     "ci:publish": "yarn semantic-release",
     "semantic-release": "semantic-release"
   },
